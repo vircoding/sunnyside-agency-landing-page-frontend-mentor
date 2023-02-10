@@ -1,0 +1,66 @@
+/* Google Fonts https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+/* Weights: 600 */
+
+/* Weights: 700, 900 */
+
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom Properties */
+:root {
+    --barlow: 'Barlow', sans-serif;
+    --fraunces: 'Fraunces', serif;
+    --soft-red: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    --dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --dark-blue: hsl(198, 62%, 26%);
+    --dark-moderate-cyan: hsl(168, 34%, 41%);
+    --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --dark-grayish-blue: hsl(232, 10%, 55%);
+    --grayish-blue: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    min-width: 375px;
+}
+
+.top {
+    min-height: 538px;
+    background-image: url(../images/mobile/image-header.jpg);
+    background-size: cover;
+    padding: 30px 25px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.main-title {
+    font-family: var(--fraunces);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 40px;
+    line-height: 1.2;
+    color: var(--white);
+    margin-bottom: 51px;
+}
+
+.main-arrow {
+    background-image: url(../images/icon-arrow-down.svg);
+}
+
+/* Media Queries */
+@media (min-width: 720px) {
+}
