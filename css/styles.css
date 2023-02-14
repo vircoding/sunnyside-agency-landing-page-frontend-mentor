@@ -469,6 +469,110 @@ body {
     .mixed > .info-paragraph {
         font-size: 18px;
     }
+
+    /* Testimonials */
+    .testimonials {
+        padding: 165px;
+    }
+
+    .testimonials-title {
+        font-size: 20px;
+        padding: 0;
+        margin-bottom: 85px;
+    }
+
+    .testimonials-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .testimonial-client {
+        width: 340px;
+        padding: 0;
+    }
+
+    .client-avatar {
+        margin-bottom: 70px;
+    }
+
+    .client-testimony {
+        line-height: 1.8;
+        margin-bottom: 75px;
+    }
+
+    .client-name {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+
+    .client-position {
+        font-size: 17px;
+    }
+
+    /* Bottom */
+    .gallery {
+        width: 100%;
+        height: initial;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 447px;
+    }
+
+    .gallery-item {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .milkbottles {
+        background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
+    }
+
+    .orange {
+        background-image: url(../images/desktop/image-gallery-orange.jpg);
+    }
+
+    .cone {
+        background-image: url(../images/desktop/image-gallery-cone.jpg);
+    }
+
+    .sugarCubes {
+        background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
+    }
+
+    .bottom-nav {
+        background-color: hsl(167, 44%, 70%);
+        height: 310px;
+        padding: 70px 0 0;
+        text-align: center;
+    }
+
+    .bottomNav-logo {
+        width: 175px;
+        margin-bottom: 30px;
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+        gap: 60px;
+    }
+
+    .nav-item {
+        font-size: 18px;
+        color: var(--dark-moderate-cyan);
+    }
+
+    .nav-brands {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        font-size: 20px;
+    }
+
+    .brand-container {
+        color: hsl(168, 45%, 31%);
+    }
 }
 
 @media (min-width: 1024px) {
