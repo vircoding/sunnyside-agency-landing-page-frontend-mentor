@@ -382,8 +382,8 @@ body {
     }
 
     .contact {
-        background-color: hsl(200, 100%, 72%);
-        color: var(--white);
+        background-color: var(--white);
+        color: var(--very-dark-desaturated-blue);
         padding: 15px 25px;
         border-radius: 50px;
         font-size: 16px;
@@ -540,38 +540,50 @@ body {
     }
 
     .bottom-nav {
-        background-color: hsl(167, 44%, 70%);
         height: 310px;
         padding: 70px 0 0;
-        text-align: center;
     }
 
     .bottomNav-logo {
-        width: 175px;
         margin-bottom: 30px;
     }
 
     .nav-list {
-        display: flex;
-        justify-content: center;
         margin-bottom: 60px;
-        gap: 60px;
     }
 
     .nav-item {
         font-size: 18px;
-        color: var(--dark-moderate-cyan);
     }
 
     .nav-brands {
-        display: flex;
-        justify-content: center;
-        gap: 25px;
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .brand-container {
         color: hsl(168, 45%, 31%);
+    }
+
+    /* Active States */
+    .contact:hover {
+        background-color: hsl(200, 100%, 72%);
+        color: var(--white);
+    }
+
+    .yellow:hover::before {
+        background-color: var(--yellow);
+    }
+
+    .red:hover::before {
+        background-color: var(--soft-red);
+    }
+
+    .nav-item:hover {
+        color: var(--white);
+    }
+
+    .brand-container:hover {
+        color: var(--white);
     }
 }
 
